@@ -1,0 +1,11 @@
+Sea Creator run check
+
+- Archive unpacked successfully.
+- Xcode project found: Sea Creator.xcodeproj
+- Shared iOS scheme found: Sea Creator (iOS)
+- iOS deployment target: 15.0
+- Configured bundle identifiers include com.dion.unicornchat and com.dion.unicornchat.extension.
+- Swift parser check passed for AppDelegate.swift, SceneDelegate.swift, ViewController.swift, and SafariWebExtensionHandler.swift using Swift 6.2.1.
+- Referenced source/resource basename scan found no missing files.
+- Full xcodebuild was not executable in this runtime because Apple Xcode is only available on macOS.
+- Repository contains .github/workflows/build-ios.yml configured to run xcodebuild on macos-latest using the Sea Creator (iOS) scheme and an iOS Simulator destination with signing disabled.
