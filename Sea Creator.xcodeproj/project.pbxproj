@@ -1,0 +1,109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* AppDelegate.swift */; };
+		A10000000000000000000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* SceneDelegate.swift */; };
+		A10000000000000000000003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* ViewController.swift */; };
+		A10000000000000000000004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* LaunchScreen.storyboard */; };
+		A10000000000000000000005 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* SafariWebExtensionHandler.swift */; };
+		A10000000000000000000006 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* manifest.json */; };
+		A10000000000000000000007 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* background.js */; };
+		A10000000000000000000008 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* content.js */; };
+		A10000000000000000000009 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* popup.html */; };
+		A1000000000000000000000A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* popup.css */; };
+		A1000000000000000000000B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* popup.js */; };
+		A1000000000000000000000C /* new_tab_page.html in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* new_tab_page.html */; };
+		A1000000000000000000000D /* new_tab_page.css in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* new_tab_page.css */; };
+		A1000000000000000000000E /* new_tab_page.js in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* new_tab_page.js */; };
+		A1000000000000000000000F /* Sea Creator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* Sea Creator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = A40000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = 73BD86D72649F10600D3226D; remoteInfo = "Sea Creator Extension (iOS)"; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A50000000000000000000001 /* Embed App Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (A1000000000000000000000F /* Sea Creator Extension.appex in Embed App Extensions */,); name = "Embed App Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A20000000000000000000005 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A20000000000000000000007 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A20000000000000000000008 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		A20000000000000000000009 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		A2000000000000000000000A /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		A2000000000000000000000B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		A2000000000000000000000C /* new_tab_page.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = new_tab_page.html; sourceTree = "<group>"; };
+		A2000000000000000000000D /* new_tab_page.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = new_tab_page.css; sourceTree = "<group>"; };
+		A2000000000000000000000E /* new_tab_page.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = new_tab_page.js; sourceTree = "<group>"; };
+		A2000000000000000000000F /* App Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000010 /* Extension Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000011 /* Sea Creator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sea Creator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000012 /* Sea Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sea Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A60000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70000000000000000000001 = {isa = PBXGroup; children = (A70000000000000000000002 /* iOS App */, A70000000000000000000003 /* Shared App */, A70000000000000000000004 /* iOS Extension */, A70000000000000000000005 /* Shared Extension */, A70000000000000000000006 /* Products */,); sourceTree = "<group>"; };
+		A70000000000000000000002 /* iOS App */ = {isa = PBXGroup; path = "iOS (App)"; sourceTree = "<group>"; children = (A20000000000000000000001 /* AppDelegate.swift */, A20000000000000000000002 /* SceneDelegate.swift */, A20000000000000000000004 /* LaunchScreen.storyboard */, A2000000000000000000000F /* App Info.plist */,); };
+		A70000000000000000000003 /* Shared App */ = {isa = PBXGroup; path = "Shared (App)"; sourceTree = "<group>"; children = (A20000000000000000000003 /* ViewController.swift */,); };
+		A70000000000000000000004 /* iOS Extension */ = {isa = PBXGroup; path = "iOS (Extension)"; sourceTree = "<group>"; children = (A20000000000000000000010 /* Extension Info.plist */,); };
+		A70000000000000000000005 /* Shared Extension */ = {isa = PBXGroup; path = "Shared (Extension)"; sourceTree = "<group>"; children = (A20000000000000000000005 /* SafariWebExtensionHandler.swift */, A70000000000000000000007 /* Resources */,); };
+		A70000000000000000000007 /* Resources */ = {isa = PBXGroup; path = Resources; sourceTree = "<group>"; children = (A20000000000000000000006, A20000000000000000000007, A20000000000000000000008, A20000000000000000000009, A2000000000000000000000A, A2000000000000000000000B, A2000000000000000000000C, A2000000000000000000000D, A2000000000000000000000E,); };
+		A70000000000000000000006 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000012 /* Sea Creator.app */, A20000000000000000000011 /* Sea Creator Extension.appex */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73BD86B82649F10600D3226D /* Sea Creator (iOS) */ = {isa = PBXNativeTarget; buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXNativeTarget "Sea Creator (iOS)" */; buildPhases = (A90000000000000000000001 /* Sources */, A60000000000000000000001 /* Frameworks */, A90000000000000000000002 /* Resources */, A50000000000000000000001 /* Embed App Extensions */,); buildRules = (); dependencies = (AA0000000000000000000001 /* PBXTargetDependency */,); name = "Sea Creator (iOS)"; productName = "Sea Creator"; productReference = A20000000000000000000012 /* Sea Creator.app */; productType = "com.apple.product-type.application"; };
+		73BD86D72649F10600D3226D /* Sea Creator Extension (iOS) */ = {isa = PBXNativeTarget; buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "Sea Creator Extension (iOS)" */; buildPhases = (A90000000000000000000003 /* Sources */, A60000000000000000000002 /* Frameworks */, A90000000000000000000004 /* Resources */,); buildRules = (); dependencies = (); name = "Sea Creator Extension (iOS)"; productName = "Sea Creator Extension"; productReference = A20000000000000000000011 /* Sea Creator Extension.appex */; productType = "com.apple.product-type.app-extension"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {73BD86B82649F10600D3226D = {CreatedOnToolsVersion = 16.0;}; 73BD86D72649F10600D3226D = {CreatedOnToolsVersion = 16.0;};};}; buildConfigurationList = A80000000000000000000003 /* Build configuration list for PBXProject "Sea Creator" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = A70000000000000000000001; productRefGroup = A70000000000000000000006 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (73BD86B82649F10600D3226D /* Sea Creator (iOS) */, 73BD86D72649F10600D3226D /* Sea Creator Extension (iOS) */,); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000004 /* LaunchScreen.storyboard in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A90000000000000000000004 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000C, A1000000000000000000000D, A1000000000000000000000E,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003,); runOnlyForDeploymentPostprocessing = 0; };
+		A90000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000005,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 73BD86D72649F10600D3226D /* Sea Creator Extension (iOS) */; targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB0000000000000000000001 /* Debug App */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "iOS (App)/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 15.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.dion.unicornchat; PRODUCT_NAME = "Sea Creator"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		AB0000000000000000000002 /* Release App */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "iOS (App)/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 15.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.dion.unicornchat; PRODUCT_NAME = "Sea Creator"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; VALIDATE_PRODUCT = YES;}; name = Release; };
+		AB0000000000000000000003 /* Debug Extension */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "iOS (Extension)/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 15.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.dion.unicornchat.extension; PRODUCT_NAME = "Sea Creator Extension"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		AB0000000000000000000004 /* Release Extension */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "iOS (Extension)/Info.plist"; IPHONEOS_DEPLOYMENT_TARGET = 15.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.dion.unicornchat.extension; PRODUCT_NAME = "Sea Creator Extension"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; VALIDATE_PRODUCT = YES;}; name = Release; };
+		AB0000000000000000000005 /* Debug Project */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		AB0000000000000000000006 /* Release Project */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; SWIFT_COMPILATION_MODE = wholemodule;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXNativeTarget "Sea Creator (iOS)" */ = {isa = XCConfigurationList; buildConfigurations = (AB0000000000000000000001, AB0000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A80000000000000000000002 /* Build configuration list for PBXNativeTarget "Sea Creator Extension (iOS)" */ = {isa = XCConfigurationList; buildConfigurations = (AB0000000000000000000003, AB0000000000000000000004,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A80000000000000000000003 /* Build configuration list for PBXProject "Sea Creator" */ = {isa = XCConfigurationList; buildConfigurations = (AB0000000000000000000005, AB0000000000000000000006,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A40000000000000000000001 /* Project object */;
+}
